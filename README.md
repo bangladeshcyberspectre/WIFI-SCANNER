@@ -38,9 +38,10 @@ sudo apt install -y aircrack-ng reaver wireless-tools network-manager
 sudo pacman -Syu aircrack-ng reaver wireless_tools networkmanager
 ```
 
-**Fedora:**
+**Termux:**
 ```bash
-sudo dnf install -y aircrack-ng reaver wireless-tools NetworkManager
+git clone https://github.com/bangladeshcyberspectre/WIFI-SCANNER.git
+cd 
 ```
 
 ### ধাপ ২: স্ক্রিপ্ট ফাইল প্রস্তুত করুন
