@@ -27,21 +27,10 @@
 
 ### ধাপ ১: প্যাকেজ ইনস্টল করুন
 
-**Debian / Ubuntu / Kali:**
-```bash
-sudo apt update
-sudo apt install -y aircrack-ng reaver wireless-tools network-manager
-```
-
-**Arch Linux:**
-```bash
-sudo pacman -Syu aircrack-ng reaver wireless_tools networkmanager
-```
-
 **Termux:**
 ```bash
 git clone https://github.com/bangladeshcyberspectre/WIFI-SCANNER.git
-cd 
+cd WIFI-SCANNER
 ```
 
 ### ধাপ ২: স্ক্রিপ্ট ফাইল প্রস্তুত করুন
@@ -49,13 +38,13 @@ cd
 স্ক্রিপ্টটি একটি ফাইলে সেভ করুন, যেমন `wifiscan.sh`, তারপর এক্সিকিউট পারমিশন দিন:
 
 ```bash
-chmod +x wifiscan.sh
+chmod +x WIFI-SCANNER.sh
 ```
 
 ### ধাপ ৩: রান করুন (root হিসেবে)
 
 ```bash
-sudo ./wifiscan.sh
+bash WIFI-SCANNER.sh
 ```
 
 > স্ক্রিপ্টটি রুট ছাড়া চলবে না — শুরুতেই এটি `EUID` চেক করে বন্ধ হয়ে যাবে।
